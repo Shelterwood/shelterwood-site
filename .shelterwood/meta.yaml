@@ -1,0 +1,10 @@
+name: shelterwood-site
+display_name: Shelterwood AI (public site)
+kind: site
+tenant: shelterwood-site
+stage: launched
+github: Shelterwood/shelterwood-site
+domain: shelterwood.ai
+beads_prefix: shelterwood-site
+status: active
+created: 2026-06-17
