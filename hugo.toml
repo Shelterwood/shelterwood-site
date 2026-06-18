@@ -2,43 +2,38 @@ baseURL = 'https://shelterwood.ai/'
 languageCode = 'en-ca'
 title = 'Shelterwood AI'
 theme = 'PaperMod'
+copyright = "© 2026 Shelterwood AI Inc. · [peter.cresswell@shelterwood.ai](mailto:peter.cresswell@shelterwood.ai)"
 
 [params]
-  description = "AI-native business portfolio. Toronto, Canada."
+  description = "Shelterwood AI Inc. is an AI-native software company in Toronto, Canada, building well-crafted products. Maker of Cuesheet."
   env = "production"
   defaultTheme = "light"
   showReadingTime = false
   showShareButtons = false
   showPostNavLinks = false
   showBreadCrumbs = false
-  showCodeCopyButtons = true
+  showCodeCopyButtons = false
   showFullTextinRSS = true
   hideFooter = false
+  mainSections = ["none"]
 
   [params.label]
     text = "shelterwood"
     icon = "/brand/logo-mark.svg"
     iconHeight = 36
 
-  [params.homeInfoParams]
-    Title = "Shelterwood AI"
-    Content = """
-Building a portfolio of AI-native businesses from Toronto, Canada.
+  [params.assets]
+    favicon = "/favicon.svg"
+    favicon16x16 = "/favicon-16.png"
+    favicon32x32 = "/favicon-32.png"
+    apple_touch_icon = "/apple-touch-icon.png"
 
-We target industries ready for transformation — applying artificial intelligence
-to solve real problems for real people.
-"""
+  [params.cover]
+    hiddenInList = true
+    hiddenInSingle = true
 
-
-[params.assets]
-  favicon = "/favicon.svg"
-  favicon16x16 = "/favicon-16.png"
-  favicon32x32 = "/favicon-32.png"
-  apple_touch_icon = "/apple-touch-icon.png"
-
-[params.cover]
-  hiddenInList = true
-  hiddenInSingle = true
+  [params.footer]
+    hideCopyright = false
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
@@ -46,6 +41,8 @@ to solve real problems for real people.
 [markup]
   [markup.highlight]
     noClasses = false
+  [markup.goldmark.renderer]
+    unsafe = true
 
 [menu]
   [[menu.main]]
@@ -53,3 +50,13 @@ to solve real problems for real people.
     name = "About"
     url = "/about/"
     weight = 10
+  [[menu.main]]
+    identifier = "products"
+    name = "Products"
+    url = "/products/"
+    weight = 20
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 30

@@ -1,19 +1,23 @@
 # Shelterwood AI
 
-> Shelterwood AI is a Canadian holding company building a portfolio of
-> AI-native businesses from Toronto, Canada. We target industries ready for
-> transformation — applying artificial intelligence to solve real problems
-> for real people. Founded by Peter Cresswell, a systems engineer with 20+
-> years in Canadian healthcare IT.
+> Shelterwood AI Inc. is a software company in Toronto, Canada, building
+> well-crafted, AI-native software products — tools designed from the start
+> around modern artificial intelligence and made to solve real problems for
+> the people who use them. Its first product is Cuesheet, an app for
+> indoor-cycling instructors. Founded by Peter Cresswell, a Waterloo-trained
+> professional engineer (P.Eng) with a background in healthcare technology.
 
-## About
+## Pages
 
-- [About Shelterwood](https://shelterwood.ai/about/): Our approach, philosophy, and the meaning behind the name.
+- [About](https://shelterwood.ai/about/): The company, its approach, and the founder.
+- [Products](https://shelterwood.ai/products/): What we build, starting with Cuesheet.
+- [Contact](https://shelterwood.ai/contact/): How to reach Shelterwood AI Inc.
 
 ## Key Facts
 
-- Incorporated federally in Canada as Shelterwood AI Inc.
-- Headquartered in Toronto, Ontario, Canada
-- Focus areas: healthcare IT, AI-native software, Canadian market
-- Business model: portfolio of AI-native lifestyle businesses
+- Incorporated in Canada as Shelterwood AI Inc.
+- Registered office: 500 Richmond St W, Suite 126, Toronto, Ontario, Canada
+- Focus: AI-native software products
+- Flagship product: Cuesheet (cuesheet.ca)
 - Founded: 2026
+- Contact: peter.cresswell@shelterwood.ai

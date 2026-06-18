@@ -1,7 +1,7 @@
 /* ============================================================
    Shelterwood AI — Brand overrides for PaperMod
    Locked palette + Fraunces (display) + Inter (body)
-   See ~/Documents/Work/shelterwood/corporate/brand/STYLEGUIDE.md
+   See ~/repos/shelterwood/corporate/brand/STYLEGUIDE.md
    ============================================================ */
 
 /* ---------- Light theme (default — cream / forest) ---------- */
@@ -178,3 +178,103 @@ code, pre, .highlight {
   background: var(--shelterwood-sage);
   color: var(--theme);
 }
+
+/* ============================================================
+   Home page — custom landing sections
+   ============================================================ */
+
+.sw-hero {
+  padding: 3.5rem 0 2.5rem;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 2.5rem;
+}
+.sw-hero-inner { max-width: 46rem; }
+.sw-eyebrow {
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--shelterwood-bark);
+  margin: 0 0 1rem;
+}
+.sw-hero-title {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: clamp(2.4rem, 6vw, 3.6rem);
+  line-height: 1.08;
+  letter-spacing: -0.025em;
+  color: var(--primary);
+  margin: 0 0 1.1rem;
+}
+.sw-hero-lede {
+  font-family: var(--font-body);
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: var(--content);
+  margin: 0 0 1.8rem;
+}
+.sw-hero-actions { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+
+.sw-btn {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.95rem;
+  padding: 0.65rem 1.3rem;
+  border-radius: 8px;
+  text-decoration: none !important;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+.sw-btn-primary {
+  background: var(--primary);
+  color: var(--theme) !important;
+  border: 1px solid var(--primary);
+}
+.sw-btn-primary:hover {
+  background: var(--shelterwood-sage);
+  border-color: var(--shelterwood-sage);
+  color: var(--primary) !important;
+}
+.sw-btn-ghost {
+  background: transparent;
+  color: var(--primary) !important;
+  border: 1px solid var(--border);
+}
+.sw-btn-ghost:hover {
+  border-color: var(--shelterwood-sage);
+  color: var(--shelterwood-sage) !important;
+}
+
+.sw-section { padding: 2.25rem 0; }
+.sw-section-alt {
+  background: var(--code-bg);
+  margin: 0 -1rem;
+  padding: 2.25rem 1rem;
+  border-radius: 12px;
+}
+.sw-section-title {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: 1.7rem;
+  letter-spacing: -0.01em;
+  color: var(--primary);
+  margin: 0 0 1rem;
+}
+.sw-prose {
+  max-width: 44rem;
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: var(--content);
+}
+.sw-prose p { margin: 0 0 1rem; }
+.sw-prose p:last-child { margin-bottom: 0; }
+.sw-prose a {
+  color: var(--primary);
+  text-decoration: underline;
+  text-decoration-color: var(--shelterwood-sage);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+.sw-prose a:hover { color: var(--shelterwood-sage); }
