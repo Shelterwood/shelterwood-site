@@ -64,7 +64,7 @@ We may update this policy from time to time. When we do, we will change the
 ## Contact
 
 For any privacy enquiry, write to
-[peter.cresswell@shelterwood.ai](mailto:peter.cresswell@shelterwood.ai).
+[hello@shelterwood.ai](mailto:hello@shelterwood.ai).
 
 **Shelterwood AI Inc.**
 500 Richmond St W, Suite 126

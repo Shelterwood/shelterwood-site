@@ -2,7 +2,7 @@ baseURL = 'https://shelterwood.ai/'
 languageCode = 'en-ca'
 title = 'Shelterwood AI'
 theme = 'PaperMod'
-copyright = "© 2026 Shelterwood AI Inc. · [peter.cresswell@shelterwood.ai](mailto:peter.cresswell@shelterwood.ai)"
+copyright = "© 2026 Shelterwood AI Inc. · [hello@shelterwood.ai](mailto:hello@shelterwood.ai)"
 
 [params]
   description = "Shelterwood AI Inc. is an AI-native software company in Toronto, Canada, building and running a portfolio of small software businesses. Flagship: Cuesheet."

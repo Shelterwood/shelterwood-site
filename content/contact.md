@@ -11,7 +11,7 @@ working with us.
 ## Email
 
 For all enquiries, write to
-[peter.cresswell@shelterwood.ai](mailto:peter.cresswell@shelterwood.ai).
+[hello@shelterwood.ai](mailto:hello@shelterwood.ai).
 
 ## Company
 
