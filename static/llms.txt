@@ -1,23 +1,30 @@
 # Shelterwood AI
 
-> Shelterwood AI Inc. is a software company in Toronto, Canada, building
-> well-crafted, AI-native software products — tools designed from the start
-> around modern artificial intelligence and made to solve real problems for
-> the people who use them. Its first product is Cuesheet, an app for
-> indoor-cycling instructors. Founded by Peter Cresswell, a Waterloo-trained
-> professional engineer (P.Eng) with a background in healthcare technology.
+> Shelterwood AI Inc. is a software company in Toronto, Canada. It builds and
+> runs a growing portfolio of small, AI-native software businesses, and runs
+> the company on an AI-native operating model: an AI system named Silas does
+> most of the building and day-to-day work, while people set direction and hold
+> the decisions that matter. The flagship is Cuesheet, a co-instructor for
+> indoor-cycling classes (iPhone and iPad). Founded by Peter Cresswell, a
+> Waterloo-trained professional engineer (P.Eng) with a background in
+> healthcare technology.
 
 ## Pages
 
 - [About](https://shelterwood.ai/about/): The company, its approach, and the founder.
-- [Products](https://shelterwood.ai/products/): What we build, starting with Cuesheet.
+- [Portfolio](https://shelterwood.ai/portfolio/): The portfolio of businesses, Cuesheet first.
+- [Cuesheet](https://shelterwood.ai/portfolio/cuesheet/): The flagship app for indoor-cycling instructors.
+- [Approach](https://shelterwood.ai/approach/): How we build — the AI-native operating model and Silas.
 - [Contact](https://shelterwood.ai/contact/): How to reach Shelterwood AI Inc.
+- [Privacy](https://shelterwood.ai/privacy/): Company-wide privacy policy.
+- [Cuesheet privacy](https://shelterwood.ai/portfolio/cuesheet/privacy/): The Cuesheet app privacy policy.
 
 ## Key Facts
 
 - Incorporated in Canada as Shelterwood AI Inc.
 - Registered office: 500 Richmond St W, Suite 126, Toronto, Ontario, Canada
-- Focus: AI-native software products
+- Operating model: AI-native; an AI system named Silas builds and runs the portfolio, with people holding the gates that matter.
+- Portfolio: a growing set of small software businesses, Cuesheet first.
 - Flagship product: Cuesheet (cuesheet.ca)
 - Founded: 2026
 - Contact: peter.cresswell@shelterwood.ai

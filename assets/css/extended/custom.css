@@ -278,3 +278,147 @@ code, pre, .highlight {
   text-underline-offset: 3px;
 }
 .sw-prose a:hover { color: var(--shelterwood-sage); }
+
+/* ============================================================
+   Portfolio page — cards driven by data/portfolio.yaml
+   ============================================================ */
+
+.sw-portfolio-intro {
+  font-size: 1.15rem;
+  margin: 0 0 2rem;
+}
+
+.sw-portfolio-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin: 0 0 2rem;
+}
+
+.sw-card {
+  background: var(--entry);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 1.6rem 1.7rem;
+}
+.sw-card-flagship {
+  border-color: var(--shelterwood-sage);
+  border-width: 1px;
+  box-shadow: 0 1px 0 var(--shelterwood-sage);
+}
+
+.sw-card-head {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.6rem 0.9rem;
+  margin: 0 0 0.4rem;
+}
+.sw-card-name {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: 1.6rem;
+  letter-spacing: -0.01em;
+  color: var(--primary);
+  margin: 0;
+}
+.sw-card-status {
+  font-family: var(--font-body);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  color: var(--secondary);
+  white-space: nowrap;
+}
+.sw-card-status-flagship {
+  background: var(--shelterwood-sage);
+  color: var(--primary);
+  border-color: var(--shelterwood-sage);
+}
+
+.sw-card-tagline {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: var(--content);
+  margin: 0 0 0.9rem;
+}
+.sw-card-summary { font-size: 1.02rem; margin: 0 0 1rem; }
+.sw-card-points {
+  font-family: var(--font-body);
+  font-size: 0.98rem;
+  line-height: 1.55;
+  color: var(--content);
+  margin: 0 0 1rem;
+  padding-left: 1.2rem;
+}
+.sw-card-points li { margin: 0 0 0.4rem; }
+.sw-card-platform {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--shelterwood-bark);
+  margin: 0 0 1rem;
+}
+.sw-card-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+}
+.sw-card-link {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--primary);
+  text-decoration: none;
+}
+.sw-card-link:hover { color: var(--shelterwood-sage); }
+
+.sw-portfolio-foot { margin-top: 1.5rem; }
+
+@media (min-width: 48rem) {
+  .sw-card { padding: 2rem 2.1rem; }
+}
+
+/* ============================================================
+   Founder headshot slot (About page)
+   ============================================================ */
+
+.sw-headshot {
+  float: right;
+  margin: 0 0 1rem 1.5rem;
+  width: 140px;
+}
+.sw-headshot-img,
+.sw-headshot-placeholder {
+  width: 140px;
+  height: 140px;
+  border-radius: 16px;
+  display: block;
+  object-fit: cover;
+  border: 1px solid var(--border);
+}
+.sw-headshot-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--primary);
+  color: var(--theme);
+}
+.sw-headshot-placeholder span {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: 2.6rem;
+  letter-spacing: 0.02em;
+}
+@media (max-width: 38rem) {
+  .sw-headshot {
+    float: none;
+    margin: 0 0 1.25rem;
+  }
+}

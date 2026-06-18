@@ -1,0 +1,55 @@
+# ============================================================
+# Shelterwood AI — Portfolio
+# ============================================================
+# This file drives the cards on /portfolio/. Each entry below
+# is one business in the Shelterwood portfolio. The portfolio
+# is meant to grow: add a business by adding a new entry here —
+# no template or layout changes needed.
+#
+# HOW TO ADD A NEW PORTFOLIO BUSINESS
+# -----------------------------------
+# 1. Copy the block below and append it to `businesses:`.
+# 2. Set `status` to one of: flagship | active | building | exploring.
+#    (Order on the page follows the order in this file, so put the
+#    most prominent business first.)
+# 3. Fill in the fields:
+#      name      — business / product name (required)
+#      tagline   — one short line, plain and concrete (required)
+#      status    — see above; renders as a small label on the card
+#      summary   — 1–3 sentences, Economist tone, no hype (required)
+#      points    — optional bullet list of what it does
+#      platform  — optional one-liner (e.g. "iPhone and iPad, iOS 26")
+#      url       — optional external site (omit if none yet)
+#      url_label — optional link text (defaults to the bare domain)
+#      more_url  — optional internal page (e.g. a dedicated section)
+# 4. Run `hugo` to confirm the build is clean. The card appears
+#    automatically. No business other than Cuesheet should be
+#    listed until it is real and ready to show.
+# ============================================================
+
+intro: >
+  Shelterwood is a portfolio of small software businesses. We build and run
+  each one ourselves, and add to the portfolio as new ideas earn their place.
+  We would rather hold a few products made well than a long list of
+  half-finished ones. Cuesheet is the first.
+
+businesses:
+  - name: "Cuesheet"
+    tagline: "A co-instructor for indoor-cycling classes."
+    status: "flagship"
+    summary: >
+      Cuesheet is an iPhone and iPad app for indoor-cycling and spin
+      instructors. It is delightfully simple to build a class and effortless
+      to run from the bike. Plan the ride in advance — warm-up, climbs,
+      sprints, recovery — line each block up with the music, and let Cuesheet
+      cue the class so you can teach instead of watch the clock.
+    points:
+      - "Build a class in minutes — lay out the segments, set effort and cadence, and match them to your playlist."
+      - "Run it hands-free from the bike — Cuesheet steps through the plan and cues each block."
+      - "Music handled by Apple MusicKit, so your own library and playlists are right there."
+      - "Class-building help runs on-device, using Apple's Foundation Models — your plans stay on your device."
+      - "Save and adapt the rides you like instead of starting from scratch."
+    platform: "iPhone and iPad · iOS 26"
+    url: "https://cuesheet.ca"
+    url_label: "cuesheet.ca"
+    more_url: "/portfolio/cuesheet/"

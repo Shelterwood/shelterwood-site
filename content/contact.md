@@ -23,7 +23,8 @@ Canada
 Shelterwood AI Inc. is a company incorporated in Canada, with its registered
 office in Toronto, Ontario.
 
-## Products
+## Portfolio
 
-Our flagship product, Cuesheet, has its own site at
-[cuesheet.ca](https://cuesheet.ca).
+Our flagship, [Cuesheet](/portfolio/cuesheet/), has its own site at
+[cuesheet.ca](https://cuesheet.ca). See the full
+[portfolio](/portfolio/) for what we build.

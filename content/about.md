@@ -23,13 +23,14 @@ people who use it get more done, with less effort, than they did before?
 
 ## How we work
 
-Each product we make is AI-native from the ground up. The intelligence is part
-of the foundation, not a feature added late. That lets us design the whole
-experience around what the technology can now do, rather than retrofitting it
-into something built for an earlier era.
+We build a portfolio of small software businesses, and run them on an
+AI-native operating model: an AI system named Silas does most of the building
+and day-to-day work, while people set the direction and hold the decisions that
+matter. The intelligence is part of the foundation, not a feature added late.
+You can read more on our [approach page](/approach/).
 
-We design, build, and operate our own products end to end. Our first is
-[Cuesheet](/products/), an app for indoor-cycling instructors.
+We design, build, and operate our own businesses end to end. The first is
+[Cuesheet](/portfolio/cuesheet/), a co-instructor for indoor-cycling classes.
 
 ## Why "Shelterwood"?
 
@@ -42,12 +43,15 @@ on the long term. We are building for durability, not for the next quarter.
 
 ## The founder
 
+{{< founder-headshot src="/images/peter-cresswell.jpg" alt="Peter Cresswell, founder of Shelterwood AI Inc." initials="PC" >}}
+
 Shelterwood was founded by **Peter Cresswell**, a professional engineer
-(P.Eng) trained at the University of Waterloo. He has spent his career in
-software, with a focus on healthcare technology and electronic medical
-records — building systems that clinicians and patients depend on. Shelterwood
-is the next step in that work: an independent company making AI-native software
-products of his own.
+(P.Eng) trained at the University of Waterloo. He has spent more than fifteen
+years in healthcare technology and electronic medical records — building
+systems that clinicians and patients depend on. He was most recently VP of
+Technology at DoctorCare, which was acquired by WELL Health. Shelterwood is the
+next step in that work: an independent company building a portfolio of
+AI-native software of his own.
 
 ## Where we are
 

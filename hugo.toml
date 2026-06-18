@@ -5,7 +5,7 @@ theme = 'PaperMod'
 copyright = "© 2026 Shelterwood AI Inc. · [peter.cresswell@shelterwood.ai](mailto:peter.cresswell@shelterwood.ai)"
 
 [params]
-  description = "Shelterwood AI Inc. is an AI-native software company in Toronto, Canada, building well-crafted products. Maker of Cuesheet."
+  description = "Shelterwood AI Inc. is an AI-native software company in Toronto, Canada, building and running a portfolio of small software businesses. Flagship: Cuesheet."
   env = "production"
   defaultTheme = "light"
   showReadingTime = false
@@ -34,6 +34,7 @@ copyright = "© 2026 Shelterwood AI Inc. · [peter.cresswell@shelterwood.ai](mai
 
   [params.footer]
     hideCopyright = false
+    text = "[Privacy](/privacy/) · [Cuesheet privacy](/portfolio/cuesheet/privacy/)"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
@@ -51,12 +52,17 @@ copyright = "© 2026 Shelterwood AI Inc. · [peter.cresswell@shelterwood.ai](mai
     url = "/about/"
     weight = 10
   [[menu.main]]
-    identifier = "products"
-    name = "Products"
-    url = "/products/"
+    identifier = "portfolio"
+    name = "Portfolio"
+    url = "/portfolio/"
     weight = 20
+  [[menu.main]]
+    identifier = "approach"
+    name = "Approach"
+    url = "/approach/"
+    weight = 30
   [[menu.main]]
     identifier = "contact"
     name = "Contact"
     url = "/contact/"
-    weight = 30
+    weight = 40

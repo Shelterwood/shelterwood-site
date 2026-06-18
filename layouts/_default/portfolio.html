@@ -1,0 +1,75 @@
+{{- define "main" }}
+
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title">Portfolio</h1>
+  </header>
+
+  <div class="post-content">
+
+    {{- with hugo.Data.portfolio.intro }}
+    <div class="sw-prose sw-portfolio-intro">
+      <p>{{ . }}</p>
+    </div>
+    {{- end }}
+
+    {{/* Cards are driven by data/portfolio.yaml — add a business there, not here. */}}
+    <div class="sw-portfolio-grid">
+      {{- range hugo.Data.portfolio.businesses }}
+      <section class="sw-card sw-card-{{ .status | default "active" }}">
+        <div class="sw-card-head">
+          <h2 class="sw-card-name">{{ .name }}</h2>
+          {{- with .status }}
+          <span class="sw-card-status sw-card-status-{{ . }}">
+            {{- if eq . "flagship" }}Flagship
+            {{- else if eq . "building" }}In development
+            {{- else if eq . "exploring" }}Exploring
+            {{- else }}Active{{ end -}}
+          </span>
+          {{- end }}
+        </div>
+
+        {{- with .tagline }}
+        <p class="sw-card-tagline">{{ . }}</p>
+        {{- end }}
+
+        {{- with .summary }}
+        <div class="sw-prose sw-card-summary"><p>{{ . }}</p></div>
+        {{- end }}
+
+        {{- with .points }}
+        <ul class="sw-card-points">
+          {{- range . }}
+          <li>{{ . | markdownify }}</li>
+          {{- end }}
+        </ul>
+        {{- end }}
+
+        {{- with .platform }}
+        <p class="sw-card-platform">{{ . }}</p>
+        {{- end }}
+
+        <div class="sw-card-links">
+          {{- with .more_url }}
+          <a class="sw-card-link" href="{{ . }}">Learn more →</a>
+          {{- end }}
+          {{- if .url }}
+          {{- $label := .url_label | default (.url | replaceRE "^https?://" "" | replaceRE "/$" "") }}
+          <a class="sw-card-link" href="{{ .url }}" rel="noopener">Visit {{ $label }} ↗</a>
+          {{- end }}
+        </div>
+      </section>
+      {{- end }}
+    </div>
+
+    <div class="sw-prose sw-portfolio-foot">
+      <p>
+        The portfolio will grow as new businesses earn their place. To talk to
+        us about our work, see the <a href="/contact/">contact page</a>.
+      </p>
+    </div>
+
+  </div>
+</article>
+
+{{- end }}

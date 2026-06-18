@@ -1,0 +1,24 @@
+{{- /*
+  founder-headshot — renders the founder photo if the file exists in /static,
+  otherwise a tasteful brand-coloured initials block as a placeholder.
+
+  Drop the real photo at:  static/images/peter-cresswell.jpg
+  (square works best; the slot is round-cornered and responsive).
+
+  Usage:
+    {{< founder-headshot src="/images/peter-cresswell.jpg" alt="..." initials="PC" >}}
+*/ -}}
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" | default "Founder" -}}
+{{- $initials := .Get "initials" | default "" -}}
+{{- $rel := strings.TrimPrefix "/" $src -}}
+{{- $exists := fileExists (printf "static/%s" $rel) -}}
+<figure class="sw-headshot">
+  {{- if $exists }}
+  <img class="sw-headshot-img" src="{{ $src | relURL }}" alt="{{ $alt }}" loading="lazy" width="160" height="160">
+  {{- else }}
+  <div class="sw-headshot-placeholder" role="img" aria-label="{{ $alt }}">
+    <span>{{ $initials }}</span>
+  </div>
+  {{- end }}
+</figure>
